@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Materi - Simple Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body class="bg-light">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-journal-bookmark-fill me-2"></i>Rudi's Blog
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="bi bi-house-door me-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Detail Materi.html">
+                            <i class="bi bi-journal-text me-1"></i>Detail Materi
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">
+                            <i class="bi bi-person-circle me-1"></i>About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <!-- Breadcrumb -->
+                <nav aria-label="breadcrumb" class="mb-4">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.html">Blog</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Detail Materi</li>
+                    </ol>
+                </nav>
+                
+                <!-- Article Header -->
+                <article>
+                    <header class="mb-4">
+                        <h1 class="fw-bold mb-1">Pengenalan HTML 5 untuk Pemula</h1>
+                        <div class="text-muted mb-2">
+                            <i class="bi bi-calendar-event me-1"></i> Diposting pada 12 November 2023 
+                            <i class="bi bi-person me-1 ms-3"></i> Oleh Rudi Ginting
+                        </div>
+                        <div>
+                            <span class="badge bg-primary me-1">Web Development</span>
+                            <span class="badge bg-secondary me-1">HTML</span>
+                            <span class="badge bg-success">Pemula</span>
+                        </div>
+                    </header>
+                    
+                    <!-- Preview Image -->
+                    <figure class="mb-4 text-center bg-primary py-5 rounded">
+                        <i class="bi bi-filetype-html text-white" style="font-size: 8rem;"></i>
+                    </figure>
+                    
+                    <!-- Article Content -->
+                    <section class="mb-5 bg-white p-4 rounded shadow-sm">
+                        <p class="lead">HTML5 adalah versi terbaru dari HyperText Markup Language, bahasa yang digunakan untuk membuat dan menyusun halaman web. HTML5 membawa banyak fitur baru yang memudahkan pengembang dalam membuat pengalaman web yang lebih kaya dan interaktif.</p>
+                        
+                        <h2 class="fw-bold mb-4 mt-5 border-bottom pb-2">Fitur Baru HTML5</h2>
+                        <p class="mb-4">HTML5 memperkenalkan beberapa elemen dan atribut baru yang mencerminkan penggunaan typical pada website modern:</p>
+                        
+                        <h3 class="fw-bold mb-3"><i class="bi bi-tags me-2"></i>Elemen Semantik</h3>
+                        <p class="mb-4">HTML5 memperkenalkan elemen semantik seperti &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, dan &lt;section&gt; yang membuat struktur halaman web lebih jelas dan bermakna.</p>
+                        
+                        <h3 class="fw-bold mb-3"><i class="bi bi-play-btn me-2"></i>Dukungan Media</h3>
+                        <p class="mb-4">Dengan elemen &lt;audio&gt; dan &lt;video&gt;, HTML5 memungkinkan penyematan media tanpa memerlukan plugin eksternal seperti Flash.</p>
+                        
+                        <h3 class="fw-bold mb-3"><i class="bi bi-easel me-2"></i>Canvas</h3>
+                        <p class="mb-4">Elemen &lt;canvas&gt; memberikan kemampuan untuk menggambar grafik secara dinamis menggunakan JavaScript, yang berguna untuk visualisasi data dan pembuatan game.</p>
+                        
+                        <h2 class="fw-bold mb-4 mt-5 border-bottom pb-2">Keuntungan Menggunakan HTML5</h2>
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <div class="card mb-3 border-primary">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><i class="bi bi-phone text-primary me-2"></i>Mobile Friendly</h5>
+                                        <p class="card-text">Kompatibilitas yang lebih baik dengan perangkat mobile</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card mb-3 border-primary">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><i class="bi bi-code-slash text-primary me-2"></i>Kode Bersih</h5>
+                                        <p class="card-text">Kode yang lebih bersih dan terstruktur</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card mb-3 border-primary">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><i class="bi bi-lightning-charge text-primary me-2"></i>Performa Tinggi</h5>
+                                        <p class="card-text">Peningkatan performa dan kecepatan loading</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card mb-3 border-primary">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><i class="bi bi-images text-primary me-2"></i>Multimedia</h5>
+                                        <p class="card-text">Dukungan untuk grafik dan multimedia tanpa plugin</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="alert alert-info mt-5">
+                            <h4 class="alert-heading"><i class="bi bi-lightbulb me-2"></i>Tip Belajar</h4>
+                            <p class="mb-0">Praktikkan langsung setiap konsep HTML5 yang dipelajari dengan membuat proyek kecil-kecilan untuk pemahaman yang lebih baik.</p>
+                        </div>
+                    </section>
+                </article>
+                
+                <!-- Author Info -->
+                <div class="card mb-5 border-primary">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-2 text-center">
+                                <i class="bi bi-person-circle" style="font-size: 3rem;"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <h5 class="card-title">Tentang Penulis</h5>
+                                <p class="card-text">Rudi Ginting adalah seorang web developer dengan pengalaman lebih dari 5 tahun di industri teknologi. Dia bersemangat dalam berbagi pengetahuan tentang pengembangan web melalui blog ini.</p>
+                                <a href="About.html" class="btn btn-primary btn-sm">Lihat Profil Lengkap</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Comments Section -->
+                <section class="mb-5">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0"><i class="bi bi-chat-dots me-2"></i>Komentar (2)</h5>
+                        </div>
+                        <div class="card-body">
+                            <!-- Single Comment -->
+                            <div class="d-flex mb-4">
+                                <div class="flex-shrink-0">
+                                    <i class="bi bi-person-circle" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <div class="fw-bold">Andi</div>
+                                    <div class="text-muted small">2 hari lalu</div>
+                                    <p class="mt-2 mb-0">Artikel yang sangat informatif untuk pemula seperti saya. Terima kasih!</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Single Comment -->
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="bi bi-person-circle" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <div class="fw-bold">Budi</div>
+                                    <div class="text-muted small">5 hari lalu</div>
+                                    <p class="mt-2 mb-0">Apakah ada rekomendasi resource untuk belajar HTML5 lebih lanjut?</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Comment Form -->
+                            <form class="mt-4">
+                                <h6 class="mb-3">Tambah Komentar</h6>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="comment" class="form-label">Komentar</label>
+                                    <textarea class="form-control" id="comment" rows="3" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Kirim Komentar</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-primary bg-gradient text-white py-4 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2023 Rudi Ginting. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="About.html" class="text-white me-3">About</a>
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
